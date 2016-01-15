@@ -7,9 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04DB46B11C47822C004D8588 /* PKonesdenglu.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DB46B01C47822C004D8588 /* PKonesdenglu.m */; };
+		04DB46B41C47932B004D8588 /* PKShouyeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DB46B31C47932B004D8588 /* PKShouyeViewController.m */; };
+		04DB46B71C47A164004D8588 /* PKLeftTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DB46B61C47A164004D8588 /* PKLeftTableView.m */; };
+		04DB46BA1C4888B1004D8588 /* LeftTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DB46B91C4888B1004D8588 /* LeftTableViewCell.m */; };
+		04DB46BD1C489618004D8588 /* Leftbofangqi.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DB46BC1C489618004D8588 /* Leftbofangqi.m */; };
+		04DB46C11C48CF43004D8588 /* PKLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DB46C01C48CF43004D8588 /* PKLoginViewController.m */; };
+		04DB46C41C48D0C7004D8588 /* LoginImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DB46C31C48D0C7004D8588 /* LoginImageView.m */; };
 		60BB1D961C473118007D8F51 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 60BB1D951C473118007D8F51 /* main.m */; };
 		60BB1D991C473118007D8F51 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 60BB1D981C473118007D8F51 /* AppDelegate.m */; };
-		60BB1D9F1C473118007D8F51 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60BB1D9D1C473118007D8F51 /* Main.storyboard */; };
 		60BB1DA11C473118007D8F51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60BB1DA01C473118007D8F51 /* Assets.xcassets */; };
 		60BB1DA41C473118007D8F51 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60BB1DA21C473118007D8F51 /* LaunchScreen.storyboard */; };
 		60BB1DAF1C473118007D8F51 /* iOSPianKeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 60BB1DAE1C473118007D8F51 /* iOSPianKeTests.m */; };
@@ -117,11 +123,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04DB46AF1C47822C004D8588 /* PKonesdenglu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PKonesdenglu.h; path = VIew/PKonesdenglu.h; sourceTree = "<group>"; };
+		04DB46B01C47822C004D8588 /* PKonesdenglu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PKonesdenglu.m; path = VIew/PKonesdenglu.m; sourceTree = "<group>"; };
+		04DB46B21C47932B004D8588 /* PKShouyeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKShouyeViewController.h; sourceTree = "<group>"; };
+		04DB46B31C47932B004D8588 /* PKShouyeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKShouyeViewController.m; sourceTree = "<group>"; };
+		04DB46B51C47A164004D8588 /* PKLeftTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PKLeftTableView.h; path = VIew/PKLeftTableView.h; sourceTree = "<group>"; };
+		04DB46B61C47A164004D8588 /* PKLeftTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PKLeftTableView.m; path = VIew/PKLeftTableView.m; sourceTree = "<group>"; };
+		04DB46B81C4888B1004D8588 /* LeftTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LeftTableViewCell.h; path = VIew/LeftTableViewCell.h; sourceTree = "<group>"; };
+		04DB46B91C4888B1004D8588 /* LeftTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LeftTableViewCell.m; path = VIew/LeftTableViewCell.m; sourceTree = "<group>"; };
+		04DB46BB1C489618004D8588 /* Leftbofangqi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Leftbofangqi.h; path = VIew/Leftbofangqi.h; sourceTree = "<group>"; };
+		04DB46BC1C489618004D8588 /* Leftbofangqi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Leftbofangqi.m; path = VIew/Leftbofangqi.m; sourceTree = "<group>"; };
+		04DB46BF1C48CF43004D8588 /* PKLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PKLoginViewController.h; path = login/PKLoginViewController.h; sourceTree = "<group>"; };
+		04DB46C01C48CF43004D8588 /* PKLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PKLoginViewController.m; path = login/PKLoginViewController.m; sourceTree = "<group>"; };
+		04DB46C21C48D0C7004D8588 /* LoginImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginImageView.h; path = login/LoginImageView.h; sourceTree = "<group>"; };
+		04DB46C31C48D0C7004D8588 /* LoginImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginImageView.m; path = login/LoginImageView.m; sourceTree = "<group>"; };
 		60BB1D911C473118007D8F51 /* iOSPianKe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSPianKe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		60BB1D951C473118007D8F51 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		60BB1D971C473118007D8F51 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		60BB1D981C473118007D8F51 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		60BB1D9E1C473118007D8F51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		60BB1DA01C473118007D8F51 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		60BB1DA31C473118007D8F51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		60BB1DA51C473118007D8F51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -333,6 +352,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04DB46BE1C48CEE7004D8588 /* 登录 */ = {
+			isa = PBXGroup;
+			children = (
+				04DB46BF1C48CF43004D8588 /* PKLoginViewController.h */,
+				04DB46C01C48CF43004D8588 /* PKLoginViewController.m */,
+				04DB46C21C48D0C7004D8588 /* LoginImageView.h */,
+				04DB46C31C48D0C7004D8588 /* LoginImageView.m */,
+			);
+			name = "登录";
+			sourceTree = "<group>";
+		};
 		60BB1D881C473118007D8F51 = {
 			isa = PBXGroup;
 			children = (
@@ -358,11 +388,13 @@
 			children = (
 				60BB1D971C473118007D8F51 /* AppDelegate.h */,
 				60BB1D981C473118007D8F51 /* AppDelegate.m */,
+				04DB46B21C47932B004D8588 /* PKShouyeViewController.h */,
+				04DB46B31C47932B004D8588 /* PKShouyeViewController.m */,
+				04DB46BE1C48CEE7004D8588 /* 登录 */,
 				60BB1EE21C4745E8007D8F51 /* PrefixHeader.pch */,
 				60BB1EBD1C473685007D8F51 /* 工具类 */,
 				60BB1EB51C4733EF007D8F51 /* 基类 */,
 				60BB1DCD1C4733A9007D8F51 /* 开源库 */,
-				60BB1D9D1C473118007D8F51 /* Main.storyboard */,
 				60BB1DA01C473118007D8F51 /* Assets.xcassets */,
 				60BB1DA21C473118007D8F51 /* LaunchScreen.storyboard */,
 				60BB1DA51C473118007D8F51 /* Info.plist */,
@@ -663,6 +695,14 @@
 			children = (
 				60BB1EB61C473434007D8F51 /* PKBaseViewController.h */,
 				60BB1EB71C473434007D8F51 /* PKBaseViewController.m */,
+				04DB46AF1C47822C004D8588 /* PKonesdenglu.h */,
+				04DB46B01C47822C004D8588 /* PKonesdenglu.m */,
+				04DB46B51C47A164004D8588 /* PKLeftTableView.h */,
+				04DB46B61C47A164004D8588 /* PKLeftTableView.m */,
+				04DB46B81C4888B1004D8588 /* LeftTableViewCell.h */,
+				04DB46B91C4888B1004D8588 /* LeftTableViewCell.m */,
+				04DB46BB1C489618004D8588 /* Leftbofangqi.h */,
+				04DB46BC1C489618004D8588 /* Leftbofangqi.m */,
 			);
 			name = "基类";
 			sourceTree = "<group>";
@@ -802,7 +842,6 @@
 				60BB1DA41C473118007D8F51 /* LaunchScreen.storyboard in Resources */,
 				60BB1DA11C473118007D8F51 /* Assets.xcassets in Resources */,
 				60BB1E9D1C4733A9007D8F51 /* MJRefresh.bundle in Resources */,
-				60BB1D9F1C473118007D8F51 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -841,6 +880,7 @@
 				60BB1E9F1C4733A9007D8F51 /* UIScrollView+MJExtension.m in Sources */,
 				60BB1E8C1C4733A9007D8F51 /* MJRefreshFooter.m in Sources */,
 				60BB1E9A1C4733A9007D8F51 /* MJDIYAutoFooter.m in Sources */,
+				04DB46B41C47932B004D8588 /* PKShouyeViewController.m in Sources */,
 				60BB1E741C4733A9007D8F51 /* AFURLConnectionOperation.m in Sources */,
 				60BB1E861C4733A9007D8F51 /* NSArray+MASAdditions.m in Sources */,
 				60BB1E891C4733A9007D8F51 /* MJRefreshAutoFooter.m in Sources */,
@@ -850,13 +890,17 @@
 				60BB1E901C4733A9007D8F51 /* MJRefreshAutoStateFooter.m in Sources */,
 				60BB1EA61C4733A9007D8F51 /* NSData+ImageContentType.m in Sources */,
 				60BB1EAD1C4733A9007D8F51 /* SDWebImagePrefetcher.m in Sources */,
+				04DB46BD1C489618004D8588 /* Leftbofangqi.m in Sources */,
+				04DB46B11C47822C004D8588 /* PKonesdenglu.m in Sources */,
 				60BB1EA21C4733A9007D8F51 /* RECommonFunctions.m in Sources */,
 				60BB1EE11C473A85007D8F51 /* AFDownloadRequestOperation.m in Sources */,
 				60BB1EB81C473434007D8F51 /* PKBaseViewController.m in Sources */,
+				04DB46BA1C4888B1004D8588 /* LeftTableViewCell.m in Sources */,
 				60BB1E801C4733A9007D8F51 /* MASCompositeConstraint.m in Sources */,
 				60BB1ECD1C473685007D8F51 /* JPRefreshView.m in Sources */,
 				60BB1E841C4733A9007D8F51 /* MASViewAttribute.m in Sources */,
 				60BB1E811C4733A9007D8F51 /* MASConstraint.m in Sources */,
+				04DB46C41C48D0C7004D8588 /* LoginImageView.m in Sources */,
 				60BB1EAE1C4733A9007D8F51 /* UIButton+WebCache.m in Sources */,
 				60BB1EB41C4733A9007D8F51 /* UIView+WebCacheOperation.m in Sources */,
 				60BB1EDA1C4739A4007D8F51 /* ZJPNavigationController.m in Sources */,
@@ -888,6 +932,7 @@
 				60BB1EA31C4733A9007D8F51 /* RESideMenu.m in Sources */,
 				60BB1E881C4733A9007D8F51 /* View+MASAdditions.m in Sources */,
 				60BB1E991C4733A9007D8F51 /* MJChiBaoZiHeader.m in Sources */,
+				04DB46C11C48CF43004D8588 /* PKLoginViewController.m in Sources */,
 				60BB1EA11C4733A9007D8F51 /* UIView+MJExtension.m in Sources */,
 				60BB1E9B1C4733A9007D8F51 /* MJDIYBackFooter.m in Sources */,
 				60BB1E8F1C4733A9007D8F51 /* MJRefreshAutoNormalFooter.m in Sources */,
@@ -910,6 +955,7 @@
 				60BB1E951C4733A9007D8F51 /* MJRefreshNormalHeader.m in Sources */,
 				60BB1E8B1C4733A9007D8F51 /* MJRefreshComponent.m in Sources */,
 				60BB1E9C1C4733A9007D8F51 /* MJDIYHeader.m in Sources */,
+				04DB46B71C47A164004D8588 /* PKLeftTableView.m in Sources */,
 				60BB1E981C4733A9007D8F51 /* MJChiBaoZiFooter2.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -946,14 +992,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		60BB1D9D1C473118007D8F51 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				60BB1D9E1C473118007D8F51 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		60BB1DA21C473118007D8F51 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -1144,6 +1182,7 @@
 				60BB1DC01C473118007D8F51 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		60BB1DC11C473118007D8F51 /* Build configuration list for PBXNativeTarget "iOSPianKeTests" */ = {
 			isa = XCConfigurationList;
@@ -1152,6 +1191,7 @@
 				60BB1DC31C473118007D8F51 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		60BB1DC41C473118007D8F51 /* Build configuration list for PBXNativeTarget "iOSPianKeUITests" */ = {
 			isa = XCConfigurationList;
@@ -1160,6 +1200,7 @@
 				60BB1DC61C473118007D8F51 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

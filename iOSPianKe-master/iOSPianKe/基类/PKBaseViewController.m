@@ -15,22 +15,96 @@
 #import "JPRefreshView.h"
 #import "UIBarButtonItem+Helper.h"
 #import "ZJPBaseHttpTool.h"
-@interface PKBaseViewController ()
 
+#import "PKonesdenglu.h"
+#import "PKLeftTableView.h"
+#import "Leftbofangqi.h"
+
+@interface PKBaseViewController ()
+@property(strong,nonatomic)PKonesdenglu *deongl;
+@property(strong,nonatomic)PKLeftTableView * lefttabView;
+@property(strong,nonatomic) Leftbofangqi*leftbofangView;
 @end
 
+
+/*
+ 
+ Product->Scheme->Edit Scheme->Run ???.app
+ 右边的选项中，选中Enable Zombie Objects
+ */
+
+
 @implementation PKBaseViewController
+
+
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    [self AddBackItemBtn];
+    [self backView];
+    [self.view addSubview:self.deongl];
+    [self.view addSubview:self.lefttabView];
     
+//    [self.view addSubview:self.leftbofangView];
+
+    WS(weakSelf)
+    [_deongl mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.top.equalTo(weakSelf.view.mas_top);
+        make.height.equalTo(@165);
+        make.left.equalTo(weakSelf.view.mas_left);
+        make.right.equalTo(weakSelf.view.mas_right);
+        
+    }];
+    
+    [_lefttabView mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.top.equalTo(weakSelf.view.mas_top).offset(165);
+        make.left.equalTo(weakSelf.view.mas_left);
+        make.right.equalTo(weakSelf.view.mas_right);
+        make.bottom.equalTo(weakSelf.view .mas_bottom).offset(-54);
+        
+    }];
+    [_leftbofangView mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.height.equalTo(@54);
+        make.left.equalTo(weakSelf.view.mas_left);
+        make.right.equalTo(weakSelf.view.mas_right);
+        make.bottom.equalTo(weakSelf.view .mas_bottom);
+        
+    }];
+
     // Do any additional setup after loading the view.
 }
 
+-(PKonesdenglu *)deongl
+{
+    if (!_deongl) {
+        _deongl=[[PKonesdenglu alloc]init];
+        
+    }
+    return _deongl;
+}
+-(PKLeftTableView*)lefttabView
+{
+    if (!_lefttabView) {
+        _lefttabView=[[PKLeftTableView alloc]init];
+        
+    }
+    return _lefttabView;
+}
+-(Leftbofangqi * )leftbofangView
+{
+    if (!_leftbofangView) {
+        _leftbofangView=[[Leftbofangqi alloc]init];
+        
+    }
+    return _leftbofangView;
+}
+
+
 - (void)AddBackItemBtn{
-    UIBarButtonItem *backItem = [[UIBarButtonItem alloc]initWithNormalIcon:@"" highlightedIcon:@"" target:self action:@selector(backView)];
+    UIBarButtonItem *backItem = [[UIBarButtonItem alloc]initWithNormalIcon:@"bubble-classic-blue" highlightedIcon:@"" target:self action:@selector(backView)];
     self.navigationItem.leftBarButtonItem = backItem;
+    
 }
 
 - (void)backView{
