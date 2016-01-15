@@ -19,11 +19,12 @@
 #import "PKonesdenglu.h"
 #import "PKLeftTableView.h"
 #import "Leftbofangqi.h"
+#import "PKLoginViewController.h"
 
 @interface PKBaseViewController ()
 @property(strong,nonatomic)PKonesdenglu *deongl;
 @property(strong,nonatomic)PKLeftTableView * lefttabView;
-@property(strong,nonatomic) Leftbofangqi*leftbofangView;
+@property(strong,nonatomic) Leftbofangqi    * leftbofangView;
 @end
 
 
@@ -41,13 +42,20 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    [self AddBackItemBtn];
-    [self backView];
-    [self.view addSubview:self.deongl];
-    [self.view addSubview:self.lefttabView];
+//    [self AddBackItemBtn];
+//    [self backView];
+//    [self.view addSubview:self.deongl];
+//    [self.view addSubview:self.lefttabView];
     
-//    [self.view addSubview:self.leftbofangView];
+    
+    [self.view addSubview:self. leftbofangView];
+    [self.deongl.iconImageBtn addTarget:self action:@selector(PushLogin) forControlEvents:UIControlEventTouchUpInside];
+    [self.deongl.userNameBtn addTarget:self action:@selector(PushLogin) forControlEvents:UIControlEventTouchUpInside];
 
+    
+    
+    
+    
     WS(weakSelf)
     [_deongl mas_makeConstraints:^(MASConstraintMaker *make) {
         make.top.equalTo(weakSelf.view.mas_top);
@@ -75,6 +83,13 @@
     // Do any additional setup after loading the view.
 }
 
+-(void )PushLogin
+{
+    PKLoginViewController*loginviewController=[[PKLoginViewController alloc]init];
+    [self presentViewController:loginviewController animated:YES completion:nil];
+}
+
+
 -(PKonesdenglu *)deongl
 {
     if (!_deongl) {
@@ -100,9 +115,9 @@
     return _leftbofangView;
 }
 
-
+//
 - (void)AddBackItemBtn{
-    UIBarButtonItem *backItem = [[UIBarButtonItem alloc]initWithNormalIcon:@"bubble-classic-blue" highlightedIcon:@"" target:self action:@selector(backView)];
+    UIBarButtonItem *backItem = [[UIBarButtonItem alloc]initWithNormalIcon:@"bubble-classic-blue.jpg" highlightedIcon:@"" target:self action:@selector(backView)];
     self.navigationItem.leftBarButtonItem = backItem;
     
 }

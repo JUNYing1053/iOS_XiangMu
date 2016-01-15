@@ -7,7 +7,6 @@
 //
 
 #import "PKonesdenglu.h"
-#import "PKLoginViewController.h"
 
 #import "Masonry.h"
 @implementation PKonesdenglu
@@ -95,7 +94,6 @@
         _iconImageBtn.layer.cornerRadius = 25.0;
         _iconImageBtn.layer.masksToBounds = YES;
         
-        [_iconImageBtn addTarget:self action:@selector(PushLogin) forControlEvents:UIControlEventTouchUpInside];
         
         
         
@@ -103,14 +101,6 @@
     return _iconImageBtn;
 }
 
-
--(void )PushLogin
-{
-    NSLog(@"tiao ");
-    PKLoginViewController*loginview=[[PKLoginViewController alloc]init];
-//    [self presentViewController: loginview  animated:YES completion:nil];
-
-}
 
 
 - (UIButton *)userNameBtn

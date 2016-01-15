@@ -10,7 +10,7 @@
 
 @interface Leftbofangqi : UIView
 
-@property(strong,nonatomic)UIImageView *imageview;
+@property(strong,nonatomic)UIImageView * imageview;
 @property(strong,nonatomic)UILabel * name;
 @property(strong,nonatomic)UILabel * frame;
 @property(strong,nonatomic)UIButton * starbtn;

@@ -16,6 +16,9 @@
 {
     self = [super initWithFrame:frame];
     if (self) {
+        self.backgroundColor=[UIColor blackColor];
+        
+        
         [self addSubview:self.backbtn];
         [self addSubview:self.imageview];
  

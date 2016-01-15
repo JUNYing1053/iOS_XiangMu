@@ -33,7 +33,6 @@
 - (void)awakeFromNib {
     // Initialization code
     
-    self.backgroundColor=[UIColor blackColor];
     
     [self addSubview:self.imageView];
     [self addSubview:self.labl];
